@@ -14,3 +14,10 @@ body {
   color: #fff;
   background-color: #000;
 }
+.brand-logo{
+  font-size: 6rem;
+}
+.copyright{
+  text-align: center;
+  padding-top: 2%;
+}

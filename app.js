@@ -61,6 +61,37 @@ app.get("/register",function(req,res){
   res.render("register");
 });
 
+app.get("/prod",function(req,res){
+  res.render("year");
+});
+app.get("/cse",function(req,res){
+  res.render("year");
+});
+app.get("/ece",function(req,res){
+  res.render("year");
+});
+app.get("/eee",function(req,res){
+  res.render("year");
+});
+app.get("/ice",function(req,res){
+  res.render("year");
+});
+app.get("/chemical",function(req,res){
+  res.render("year");
+});
+app.get("/mech",function(req,res){
+  res.render("year");
+});
+app.get("/civil",function(req,res){
+  res.render("year");
+});
+app.get("/mme",function(req,res){
+  res.render("year");
+});
+app.get("/archi",function(req,res){
+  res.render("year");
+});
+
 app.get("/secrets", function(req, res){
   User.find({"secret":{$ne: null}}, function(err, foundUsers){
     if(err){
